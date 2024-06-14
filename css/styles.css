@@ -1,0 +1,450 @@
+.banner{
+    background-image: url('https://mudandote.mx/wp-content/uploads/2021/11/Mudanza.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10.5em auto 0 auto;
+    width: 100%;
+    height: 750px;
+}
+.opacidad{
+    background-color: rgba(0, 0, 0, 0.641);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.encima-banner{
+    padding: 2em;
+    position: left;
+    width: 600px;
+}
+.tit-banner{
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+    font-size: 3.7em;
+}
+
+.sub-banner{
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+    margin: .7em auto 1.3em;
+    text-align: center;
+}
+
+.btn-banner{
+    background-color: red;
+    padding: .5em;
+    text-decoration: none;
+    color: white;
+    border-radius: .3em;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 280px;
+}
+.btn-banner:hover{
+    background-color: white;
+    color: red;
+    transition: all 1s ease-in-out;
+}
+
+
+.article-section1{
+    overflow-x: hidden;
+    margin: 1em auto;
+    padding: 7em 3em;
+    width: 1650px;
+}
+.espacio-section{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.titutlo-section1{
+    text-align: center;
+    color: red;
+    font-family: 'Teko';
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.par-section1{
+    width: 550px;
+    margin: 1.2em auto;
+    text-align: center;
+    color: black;
+    font-family: 'Raleway';
+    font-size: 1.5em;
+    font-weight: 700;
+    align-items: center;
+}
+
+.btn-banner2{
+    background-color: red;
+    padding: .5em;
+    text-decoration: none;
+    color: white;
+    border-radius: .3em;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 350px;
+}
+.btn-banner2:hover{
+    background-color: red;
+    color: black;
+    transition: all 1s ease-in-out;
+}
+.img-section1{
+    width: 560px;
+}
+
+
+
+
+.article-section2{
+    background-color: #202020;
+    margin: 1em auto 0 auto;
+    padding: 7em 3em;
+}
+.titutlo-section2{
+    text-align: center;
+    color: white;
+    font-family: 'Teko';
+    font-size: 4.2em;
+    font-weight: 900;
+    margin-top: .5em;
+}
+.par-section2{
+    width: 850px;
+    margin: 1em auto;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 1.5em;
+    align-items: center;
+}
+
+
+
+
+
+.article-section3{
+    overflow-x: hidden;
+    margin: auto;
+    padding: 3em 3em;
+    max-width: 1700px;
+}
+.espacio-section3{
+    margin: auto;
+    padding: 2em;
+    border-radius: .5em;
+    background-color: red;
+    max-width: 700px;
+    height: 950px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-section3{
+    height: 400px;
+    object-fit: cover;
+}
+.titutlo-section3{
+    text-align: center;
+    color: black;
+    font-family: 'Teko';
+    font-size: 3em;
+    font-weight: 900;
+    margin: .5em auto;
+}
+
+.par-section3{
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 1.4em;
+    font-weight: 700;
+    align-items: center;
+}
+
+.espacio-subsection3{
+    padding: 2em;
+    margin: auto;
+    width: 320px;
+}
+.espacio-subsection3 p{
+    margin: auto;
+    font-family: 'Raleway';
+    font-size: 1.1em;
+    text-align: left;
+    color: white;
+    width: 200px;
+}
+.espacio-subsection3 i{
+    margin: auto;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+.espacio-subsection3 .row section{
+    margin: auto;
+}
+
+.espacio-subsection3 .row{
+    margin: 1em auto;
+}
+
+
+
+
+.banner2{
+    background-image: url('https://d2f0ora2gkri0g.cloudfront.net/bf/24/bf2467c4-bb89-4aad-b24c-2be542157fda.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+    height: 750px;
+}
+.opacidad2{
+    background-color: rgba(0, 0, 0, 0.820);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.tit-banner2{
+    font-family: 'Teko';
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+}
+
+.sub-banner2{
+    margin-top: 2em;
+    font-family: 'Raleway';
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+
+.banner3{
+    background-image: url('https://bulb.cl/wp-content/uploads/2022/12/ecomsur7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+    height: 900px;
+}
+.opacidad3{
+    background-color: rgba(0, 0, 0, 0.820);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.tit-banner3{
+    font-family: 'Teko';
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    font-size: 5.5em;
+    text-align: center;
+}
+
+.sub-banner3{
+    margin-top: 1.6em;
+    font-family: 'Raleway';
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+}
+
+
+
+.article-section4{
+    overflow-x: hidden;
+    margin: 1em auto;
+    padding: 7em 3em;
+    width: 1500px;
+}
+.espacio-section4{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.titutlo-section4{
+    text-align: center;
+    color: red;
+    font-family: 'Teko';
+    font-size: 3.5em;
+    font-weight: 900;
+}
+.par-section4{
+    margin: 1.2em auto;
+    text-align: center;
+    color: black;
+    font-family: 'Raleway';
+    font-size: 1.6em;
+    font-weight: 700;
+    align-items: center;
+}
+.btn-section4{
+    background-color: red;
+    padding: .5em;
+    text-decoration: none;
+    color: white;
+    border-radius: .3em;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 250px;
+}
+.btn-section4:hover{
+    background-color: red;
+    color: black;
+    transition: all 1s ease-in-out;
+}
+.img-section4{
+    width: 600px;
+}
+
+
+
+
+.article-section5{
+    overflow-x: hidden;
+    margin: 1em auto;
+    width: 1500px;
+}
+.espacio-section5{
+    align-items: center;
+    justify-content: center;
+}
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-form form{
+    margin: auto;
+    background-color: #ffffff;
+    width: 650px;
+    box-shadow: 5px 5px 10px black;
+    padding: 2em;
+    border-radius: 6px;
+}
+.label-form{
+    text-align: left;
+    font-family: 'Teko';
+    font-weight: bold;
+    font-size: 1.4em;
+    color: black;
+}
+.campo-form{
+    width: 100%;
+    color: black;
+    background-color: white;
+    border: 2px solid red;
+    padding: .4em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.campo-form:focus{
+    outline: #96885F;
+    border: 2px solid rgb(255, 137, 137);
+    border-radius: 5px;
+}
+@media screen and (max-width: 800px){
+    .container-form form{
+        width: 100%;
+    }
+}
+textarea{
+    resize: none;
+    height: 8.8em;
+}
+.campo-form::placeholder {
+    color: black;
+}
+.btn-section5{
+    background-color: red;
+    padding: .6em;
+    border: 1px solid red;
+    text-decoration: none;
+    color: white;
+    border-radius: .3em;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 280px;
+}
+.btn-section5:hover{
+    background-color: red;
+    color: black;
+    transition: all 1s ease-in-out;
+}
+
+.mapa{
+    width: 675px;
+    height: 675px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+
+.banner4{
+    margin: 4em auto;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0px 5px 10px black;
+}
+.tit-banner4{
+    text-align: center;
+    color: red;
+    font-family: 'Teko';
+    font-size: 3.5em;
+    font-weight: 900;
+}
+.div-banner4{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Raleway';
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+}
+.div-banner4 span{
+    font-weight: 900;
+    font-size: 1em;
+    font-style: italic;
+}

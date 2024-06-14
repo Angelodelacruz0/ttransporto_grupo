@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nosotros{
+    scroll-margin-top: 60px;
+}
+#servicios{
+    scroll-margin-top: 140px;
+}
+#productos{
+    scroll-margin-top: 80px;
+}
+#clientes{
+    scroll-margin-top: 10px;
+}
+#contacto{
+    scroll-margin-top: 155px;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+header{
+    background-color: #202020;
+    position: fixed;
+    top: 0;
+    z-index: 1000000000000000;
+    width: 100%;
+    font-family: 'Teko';
+    font-size: 1.6em;
+}
+.logo{
+    text-align: center;
+    margin: .5em auto;
+}
+.img-logo{
+    width: 300px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+.logito{
+    text-decoration: none;
+}
+.menu{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btn-menu{
+    display: none;
+}
+.enlaces{
+    padding: .3em 0;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+.enlaces .links{
+    padding: 0 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.enlaces .links:hover{
+    /*color: #FF0000;*/
+    -webkit-text-stroke: 1px #FF0000 ;
+    transition: all .8s ease-in-out;
+}
+.linea{
+    height: .15em; 
+    background-color: #FF0000;
+}
+@media screen and (max-width: 1023px) {
+    .menu {
+        flex-direction: column;
+        width: 100%;
+    }
+    .logo .marca{
+        text-align: left;
+        font-size: 1.5em;
+        color: #EFA758;
+        margin-right: 1.2em;
+        margin-left: .3em;
+    }
+    
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        color: #EFA758;
+    }
+    .img-logo{
+        height: 2.6em;
+        width: 2.6em;
+    }
+    .logo a{
+        display: block;
+        color: var(--color-primario);
+        font-size: 2em;
+    }
+    .enlaces{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+/* INICIO FOOTER */
+footer{
+    padding-top: 5em;
+    background-color: #202020;
+    color: #e1e1e1;
+}
+.footer-container{
+    text-align: center;
+    max-width: 1300px;
+}
+footer hr{
+    width: 100%;
+}
+footer h2{
+    font-size: 2em;
+    color: white;
+    font-family: 'Teko';
+    font-weight: 900;
+}
+.border-right {
+    border-right: 2px solid white;
+}
+.p-footer{
+    font-family: 'Raleway';
+}
+.final-foo{
+    margin-top: 3em;
+}
+.linea2{
+    height: .2em; 
+    background-color: white;
+    margin-bottom: 1.3em;
+}
+.final-p{
+    text-align: center;
+    font-family: 'Teko';
+    font-size: 1.6em;
+}
+@media screen and (max-width: 800px){
+    footer{
+        text-align: center;
+    }
+    footer .c2{
+        padding-left: 1px;
+    }
+    .p-footer{
+        padding-right: 2px;
+    }
+    .here-footer, .enlaces-footer{
+        padding-left: 1px;
+    }
+    .contacto-footer{
+        padding-left: 1px;
+        text-align: center;
+    }
+}
+/* FIN FOOTER */
+
+
+
+::-webkit-scrollbar{
+    background-color: #ffffff;
+    width: auto;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: .3em;
+    background-color: #ff0000;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #ff0000;
+}
+::-webkit-scrollbar-thumb:active{
+    background-color: rgb(255, 76, 76);
+}
